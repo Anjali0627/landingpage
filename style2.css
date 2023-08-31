@@ -1,0 +1,168 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+html {
+  overflow: scroll;
+}
+header {
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 30px 100px;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  margin-bottom: 200px;
+  color: white;
+  background-color: black;
+}
+
+.headline {
+  font-size: 50px;
+}
+.top-link {
+  padding-right: 20px;
+  text-decoration: none;
+  color: white;
+}
+
+.top-link:hover {
+  color: rgb(211, 35, 114);
+  font-size: 20px;
+  background-color: ;
+}
+.start {
+  text-decoration: none;
+  display: inline-block;
+  background-color: rgb(255, 255, 255);
+  color: rgb(9, 9, 9);
+  height: 70px;
+  width: 150px;
+  padding-top: 7px;
+  border: 2px solid orangered;
+  border-radius: 4%;
+  text-align: center;
+}
+.start:hover {
+  cursor: pointer;
+  background-color: rgb(251, 43, 220);
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+}
+
+.description {
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+section {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  background-image: url(pexels-marcelo-moreira-1926620.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.maincontent {
+  margin-left: 150px;
+  color: white;
+}
+
+.HEAD {
+  text-align: center;
+  text-decoration: underline rgb(249, 43, 111);
+  padding-top: 30px;
+}
+
+.service {
+  width: 100%;
+  min-height: 100vh;
+  background-color: rgb(169, 169, 169);
+}
+
+.service-intro {
+  text-align: center;
+  padding-top: 15px;
+}
+
+.imgser {
+  padding: 50px;
+}
+
+.service-img {
+  padding-left: 60px;
+}
+
+.first,
+.last {
+  padding-right: 5opx;
+}
+
+.service-img:hover {
+  cursor: pointer;
+  border: 2px solid palevioletred;
+}
+
+footer {
+  background-image: url(pexels-karolina-grabowska-4938502.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  min-height: 70vh;
+  padding: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: rgb(255, 255, 255);
+}
+.icons {
+  list-style: none;
+  display: inline-block;
+
+  display: flex;
+  gap: 2px;
+  margin-top: 20px;
+}
+
+footer div ul img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+footer div ul img:hover {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.tags {
+  list-style: none;
+  padding-top: 50px;
+  line-height: 40px;
+}
+h3 {
+  color: black;
+}
+
+footer div ul a {
+  color: rgb(9, 9, 9);
+  text-decoration: none;
+}
+
+footer div ul a:hover {
+  font-size: 20px;
+  color: rgb(240, 47, 134);
+}
+
+.last {
+  background-color: black;
+  color: white;
+}
+
+.fot-intro {
+  color: black;
+}
